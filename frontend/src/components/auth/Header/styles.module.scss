@@ -1,0 +1,26 @@
+.header {
+  padding: 0 100px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+  .logo {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+    svg {
+      font-size: 40px;
+    }
+
+    span {
+      font-family: "Consolas";
+      font-size: 22px;
+      letter-spacing: 2px;
+      margin-left: 12px;
+    }
+  }
+}

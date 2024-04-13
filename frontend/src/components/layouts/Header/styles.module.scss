@@ -1,0 +1,44 @@
+.headerWrap {
+  height: 46px;
+  position: fixed;
+  top: 0;
+  left: 15%;
+  right: 0;
+  z-index: 999999999;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+
+  .header {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 20px;
+      height: 20px;
+      object-fit: cover;
+      margin-right: 8px;
+    }
+
+    span {
+      font-size: 14px;
+      color: rgb(55, 53, 47);
+    }
+  }
+
+  .btnShare {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 4px 16px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+
+    &:hover {
+      background: rgba(55, 53, 47, 0.08);
+    }
+  }
+}

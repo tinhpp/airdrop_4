@@ -1,0 +1,68 @@
+.header {
+  padding: 0 100px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+  .logo {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+    svg {
+      font-size: 40px;
+    }
+
+    span {
+      font-family: "Consolas";
+      font-size: 22px;
+      letter-spacing: 2px;
+      margin-left: 12px;
+    }
+  }
+
+  .auth {
+    display: flex;
+    align-items: center;
+
+    & > div {
+      padding: 4px;
+      font-weight: bold;
+    }
+
+    .btnLogin {
+      font-weight: 500;
+      color: #000;
+      padding: 4px 16px;
+      transition: all ease-in-out 0.2s;
+      margin-right: 12px;
+      border-radius: 5px;
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.1);
+        color: #000000;
+      }
+    }
+
+    .btnRegister {
+      font-weight: 500;
+      transition: all ease-in-out 0.2s;
+      background: #e16259;
+      color: #ffffff;
+      border-radius: 5px;
+      line-height: 30px;
+      padding: 0 18px 2px 18px;
+      text-align: center;
+
+      &:hover {
+        background: #ad4841;
+        color: #FFFFFF;
+        border-radius: 5px;
+      }
+    }
+  }
+}

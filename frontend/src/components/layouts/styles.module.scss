@@ -1,0 +1,20 @@
+.layout {
+  color: rgba(25, 23, 17, 0.6);
+
+  .sidebar {
+    width: 15%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #FBFBFA;
+    border-right: 1px solid #ddd;
+    z-index: 999999999;
+  }
+
+  .main {
+    margin-left: 15%;
+    padding: 0 16px;
+    overflow-y: hidden;
+  }
+}
